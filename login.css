@@ -1,0 +1,138 @@
+body {
+        background-image: url('login bg.jpg'); 
+        background-size: cover;      
+        background-position: center;
+        background-attachment: fixed;
+        visibility: visible;
+    }
+    body.loading {
+        visibility: hidden;
+    }
+    .word{
+        text-align: center;
+        color: white;
+    }
+    .container{
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 30px;
+        border-radius: 20px;
+        width: 300px;
+        margin: auto;
+    }
+    .total{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container input{
+        width: 100%;
+        padding: 5px;
+        margin: 10px 0;
+        border: 1px solid rgba(30, 13, 13, 0.3);
+        border-radius: 5px;
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.12);
+        color: white;
+    }
+    input:focus{
+        border-color: #4F8EF7;
+        box-shadow: 0 0 5px rgba(79, 142, 247, 0.5);
+        outline: none;
+    }
+    .input-groups{
+        position:relative;
+        width: 300px;
+    }
+    .btn{
+        width: 100%;
+        padding: 10px;
+        background-color: #4F8EF7;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: #274ea2;
+        transition: background-color 0.3s ease ; 
+        box-shadow: #2c496b 0px 4px 8px, #3b5471 0px 6px 20px;
+    }
+    a{
+        color: #93C5FD;
+        text-decoration: none;
+    }
+    .container:hover{
+        transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+        transform: translateY(-6px);               
+        background: rgba(255, 255, 255, 0.12);              
+        border: 1px solid rgba(255, 255, 255, 0.4);        
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5),
+        0 0 20px rgba(79, 142, 247, 0.2);
+        backdrop-filter: blur(10px);
+
+    }
+    label{
+        color: rgb(220, 233, 232);
+    }
+    /* span {
+        color: #888;
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    .san {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+    }
+
+    .san::before,
+    .san::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #333;
+    }
+    .social-login {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.07);
+        border: 1px solid rgba(255,255,255,0.13);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s cubic-bezier(.34,1.56,.64,1),
+        border-color 0.3s,
+        background 0.3s,
+        box-shadow 0.3s;
+    }
+    
+    .social-login:hover {
+        background-color: gray;
+        transition: background-color 0.3s ease;
+        transform: translateY(-4px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3),
+        0 0 12px rgba(255, 255, 255, 0.3);
+    }
+    .social-login-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        width: 100%;            
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    } */
